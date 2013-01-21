@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+	<meta charset="UTF-8">
+	<title>Password Strength Checker</title>
+	<link type="text/css" href="css/normalize.css" rel="stylesheet" />
+	<link type="text/css" href="css/style.css" rel="stylesheet" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/passcheck.js"></script>
+</head>
+<body>
+	
+	<div id="container">
+		<h1>Simple Password Checker</h1>
+		<div class="block">
+			<input id="fname" type="text" placeholder="Bob" />
+			<input id="sname" type="text" placeholder="Jones" />
+			<input id="inputPassword" type="password" maxlength="20"/>
+			<div id="complex" class="default">Enter a password to check</div>
+		</div>
+
+		<div class="block">
+			<div id="results" class="default">Breakdown of points</div>
+			<div id="details"></div>
+		</div>
+	</div>
+</body>
+</html>
